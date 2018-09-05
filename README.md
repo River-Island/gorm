@@ -1,3 +1,11 @@
+# River Island Fork
+
+This is forked with this other fork merged in
+https://github.com/maddie/gorm
+Reason why we need it is this issue
+https://github.com/jinzhu/gorm/issues/1672
+Gorm does really inefficient matching when preloading many objects, this populates maps for faster lookup, taking our queries from 15+ minutes to dozens of seconds.
+
 # GORM
 
 The fantastic ORM library for Golang, aims to be developer friendly.
